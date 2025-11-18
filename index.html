@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GGM - Global Gospel Mission</title>
+<style>
+  :root {
+    --c1: #669bbc;
+    --c2: #bc6c25;
+    --c3: #00b4d8;
+    --c4: #005f73;
+    --c5: #2a9d8f;
+    --c6: #1a659e;
+    --nc1: #f29559;
+    --nc2: #ffffff;
+    --nc3: #284b63;
+    --nc4: #62b6cb;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+  body { background: #f5f5f5; color: #222; }
+  header { background: var(--c6); color: #fff; padding: 20px; text-align: center; }
+  nav { display: flex; justify-content: center; gap: 20px; padding: 15px; background: var(--c4); }
+  nav a { color: #fff; text-decoration: none; font-weight: bold; }
+  .hero { height: 90vh; background: var(--c1); color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; }
+  .hero h1 { font-size: 48px; max-width: 900px; }
+  .hero p { font-size: 20px; margin-top: 10px; max-width: 800px; }
+  .btn { background: var(--c3); padding: 12px 24px; color: #fff; margin-top: 20px; border-radius: 6px; text-decoration: none; }
+
+  .section { padding: 60px 8%; }
+  h2 { color: var(--c4); margin-bottom: 20px; }
+  .flex { display: flex; gap: 40px; flex-wrap: wrap; }
+
+  /* Latest Updates */
+  .updates-box { width: 30%; background: #fff; padding: 20px; border-left: 5px solid var(--c2); height: 400px; overflow-y: scroll; }
+  .updates-box h3 { margin-bottom: 10px; color: var(--c2); }
+
+  /* Gallery */
+  .gallery { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 20px; }
+  .gallery img { width: 100%; height: 220px; object-fit: cover; border-radius: 8px; }
+
+  /* Contact */
+  .contact-form { width: 100%; max-width: 500px; background: #fff; padding: 30px; border-radius: 10px; }
+  input, textarea { width: 100%; padding: 12px; margin-top: 10px; border-radius: 6px; border: 1px solid #ccc; }
+  button { background: var(--c5); padding: 12px 24px; color: #fff; border: none; margin-top: 10px; border-radius: 6px; cursor: pointer; }
+
+  footer { text-align: center; padding: 20px; background: var(--c4); color: #fff; margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>GGM – Global Gospel Mission</h1>
+  <p>Equipping Youth. Proclaiming Christ. Reaching the Nations.</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#mission">Mission</a>
+  <a href="#history">History</a>
+  <a href="#teachings">Teachings</a>
+  <a href="#sermons">Sermons</a>
+  <a href="#blog">Blog</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#bible">Bible</a>
+  <a href="#discord">Discord</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>"Go therefore and make disciples of all nations" – Matthew 28:19</h1>
+  <p>A global ministry dedicated to preaching Christ, raising leaders, and reaching nations with the Gospel.</p>
+  <a class="btn" href="#contact">Join The Mission</a>
+</div>
+
+<section id="news" class="section" style="background: var(--nc1); color: #fff; padding: 15px 0;">
+  <h2 style="text-align:center; margin-bottom:10px;">Latest News</h2>
+  <div style="overflow:hidden; white-space:nowrap;">
+    <p id="news-scroll" style="display:inline-block; padding-left:100%; font-size:18px;">
+      • Gospel Outreach 2025 expanding to 3 new regions • New Youth Leadership Training launching next month • Weekly Bible Study on Romans starts Friday • Prayer and Fasting week begins Monday • GGM Media Team preparing new sermon series •
+    </p>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>What We Do</h2>
+  <div class="flex">
+    <div style="flex: 1; min-width: 60%;">
+      <p>We are a Christ-centered ministry focused on equipping the next generation, proclaiming Jesus boldly, and reaching the nations with the Gospel. Rooted in Scripture and led by the Holy Spirit, our mission is to raise youth leaders who live and lead for the glory of God.</p>
+    </div>
+    <div class="updates-box">
+      <h3>Latest Updates</h3>
+      <p>• July Message: Rooted in Faith, Formed in Love, Living for Eternity.</p>
+      <p>• August Word: Trust in the Lord – Jeremiah 17:7–8.</p>
+      <p>• Mission Expansion Teams Preparing for Outreach.</p>
+      <p>• Weekly Teaching Series on Philippians 3.</p>
+    </div>
+  </div>
+</section>
+
+<section id="mission" class="section">
+  <h2>Why We Do It</h2>
+  <p>Every soul matters, and every life needs the Gospel. The world is hungry for hope, and Jesus is the answer. We serve because the harvest is plentiful and laborers are few.</p>
+</section>
+
+<section id="history" class="section">
+  <h2>Our Story</h2>
+  <p>Global Gospel Mission was founded in June 2025 in Dubai by NK Noah, a servant of Christ with a calling to teach the Word and raise disciples for God's glory.</p>
+</section>
+
+<section id="gallery" class="section">
+  <h2>Image Gallery</h2>
+  <div class="gallery">
+    <img src="image.jpg" />
+    <img src="image1.jpg" />
+    <img src="image2.jpg" />
+    <img src="image3.jpg" />
+    <img src="image4.jpg" />
+    <img src="image5.jpg" />
+    <img src="image6.jpg" />
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <div class="contact-form">
+    <form action="mailto:noahkarki4@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>Noah © 2025 Global Gospel Mission. All Rights Reserved.</p>
+</footer>
+
+
+<!-- Bible Verse API Section -->
+<section id="bible" class="section">
+  <h2>Daily Bible Verse</h2>
+  <div id="verse-box" style="background: var(--nc4); padding: 20px; border-radius: 10px; color: #000;"></div>
+</section>
+
+<!-- Dark/Light Mode Toggle -->
+<button id="modeToggle" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background: var(--nc3); color: #fff; border: none; border-radius: 6px; cursor: pointer;">Toggle Mode</button>
+
+<script>
+  // Bible Verse API
+  fetch('https://bible-api.com/john%203:16')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('verse-box').innerHTML = `<strong>${data.reference}</strong><br>${data.text}`;
+    });
+
+  // Dark / Light mode
+  const toggle = document.getElementById('modeToggle');
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+  });
+</script>
+
+<script>
+  // News Scrolling Effect
+  const news = document.getElementById('news-scroll');
+  let x = 0;
+  function scrollNews() {
+    x--;
+    news.style.transform = `translateX(${x}px)`;
+    if (Math.abs(x) > news.scrollWidth) {
+      x = window.innerWidth;
+    }
+    requestAnimationFrame(scrollNews);
+  }
+  scrollNews();
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GGM Global Gospel Mission</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #000;
+    }
+
+    header {
+      background: #1a659e;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      background: #005f73;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('image.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .section {
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .cta {
+      background: #bc6c25;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      background: #00b4d8;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+    }
+
+    .main-content {
+      flex: 3;
+    }
+
+    .sidebar {
+      flex: 1;
+      background: #669bbc;
+      color: white;
+      padding: 20px;
+      height: 500px;
+      overflow-y: scroll;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #1a659e;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      margin-top: 40px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form button {
+      background: #2a9d8f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GGM GLOBAL GOSPEL MISSION</h1>
+  <p>Equipping Youth. Proclaiming Christ. Reaching the Nations.</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#history">Church History</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Proclaiming Christ To The Nations</h1>
+</section>
+
+<section id="about" class="section">
+  <h2>What We Do</h2>
+  <p>We are a Christ-centered ministry dedicated to spreading the Gospel across the globe and equipping the next generation to stand firm in faith.</p>
+</section>
+
+<section class="section container">
+  <div class="main-content">
+    <h2>Church History</h2>
+    <p>Complete timeline from the early church to the present age.</p>
+  </div>
+
+  <div class="sidebar">
+    <h3>Latest Updates</h3>
+    <ul>
+      <li>New mission training starting soon.</li>
+      <li>Monthly devotional for August released.</li>
+      <li>GGM youth outreach expanding.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="gallery" class="section">
+  <h2>Image Gallery</h2>
+  <div class="gallery">
+    <img src="image.jpg" />
+    <img src="image1.jpg" />
+    <img src="image2.jpg" />
+    <img src="image3.jpg" />
+    <img src="image4.jpg" />
+    <img src="image5.jpg" />
+    <img src="image6.jpg" />
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Join The Mission</h2>
+  <p>Be part of a global calling to reach the nations.</p>
+  <a href="#contact">Get Involved</a>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" />
+    <input type="email" placeholder="Your Email" />
+    <textarea rows="5" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Email: noahkarki4@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2025 Global Gospel Mission. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
